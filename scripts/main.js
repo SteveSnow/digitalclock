@@ -1,3 +1,5 @@
 $('document').ready(function(){
-	$('#clockBody').css('backgroundColor','black');
+	// $('#clockBody').css('backgroundColor','orange');
 })
+
+

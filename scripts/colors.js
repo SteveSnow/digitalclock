@@ -1,21 +1,22 @@
+var colors = ['orange', 'green', 'blue', 'yellow']
 var colorIndex = 0
 
 function setColor() {
     switch (colorIndex) {
         case 0:
-            $('#clockBody').css('backgroundColor', 'green')
+            $('.clockPart').css('backgroundColor', colors[colorIndex])
             colorIndex += 1           
             break;
         case 1:
-            $('#clockBody').css('backgroundColor', 'blue')
+            $('.clockPart').css('backgroundColor', colors[colorIndex])
             colorIndex += 1
             break;
         case 2:
-            $('#clockBody').css('backgroundColor', 'yellow')
+            $('.clockPart').css('backgroundColor', colors[colorIndex])
             colorIndex += 1
             break;
         case 3:
-            $('#clockBody').css('backgroundColor', 'black')
+            $('.clockPart').css('backgroundColor', colors[colorIndex])
             colorIndex = 0
             break;
     }

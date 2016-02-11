@@ -1,17 +1,19 @@
 #clockBody {
     display: flex;
     height: 400px;
-    width: 800px;
+    width: 100%;
     border: 1px black solid;
 }
 
 .clockNumberFrame {
     height: 350px;
-    width: 200px;
-    border: 1px black solid;
-    background-color: blue;
+    width: 100px;
+    margin:auto;
 }
-
+div h1{
+    text-align: center;
+    margin:auto;
+}
 .t {
     height: 10%;
     width: 100%;
@@ -23,20 +25,22 @@
     width: 100%;
     background-color: red;
     position: relative;
-    bottom: 100%;
+    bottom: 420;
 }
 
 .m {
-    height: 10%;
+    height: 15%;
     width: 100%;
     background-color: red;
     position: relative;
-    bottom: 165%;
+    bottom: 625;
 }
 
 .lt {
     height: 50%;
     width: 25%;
+    position: relative;
+    bottom:30;
     background-color: red;
 }
 
@@ -44,7 +48,8 @@
     height: 50%;
     width: 25%;
     left: 0px;
-    bottom: 0px;
+    bottom: 35px;
+    position: relative;
     background-color: red;
 }
 
@@ -53,9 +58,8 @@
     width: 25%;
     position: relative;
     left: 75%;
-    bottom: 350px;
+    bottom: 385;
     background-color: red;
-    display: inline-block;
 }
 
 .rb {
@@ -63,6 +67,18 @@
     width: 25%;
     position: relative;
     left: 75%;
-    bottom: 100%;
+    bottom: 385;
     background-color: red;
+}
+
+.clockTop {
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
+
+.clockBottom {
+    height: 50%;
+    width: 100%;
+    background-color: green;
 }
