@@ -1,14 +1,80 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/normal.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
-	</head>
-	<body>
-		
-	</body>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+    <div id="clockBody">
+        <div id="tenHour" class="clockNumberFrame">
+            <div class="t">
+            </div>
+            <div class="lt"></div>
+            <div class="lb"></div>
+            <div class="rt"></div>
+            <div class="rb"></div>
+            <div class="b">
+            </div>
+            <div class="m">
+            </div>
+        </div>
+          <div id="oneHour" class="clockNumberFrame">
+            <div class="t">
+            </div>
+            <div class="lt"></div>
+            <div class="lb"></div>
+            <div class="rt"></div>
+            <div class="rb"></div>
+            <div class="b">
+            </div>
+            <div class="m">
+            </div>
+        </div>
+        <div>
+        	<h1>:</h1>
+        </div>
+        <div id="tenMinute" class="clockNumberFrame">
+            <div class="t">
+            </div>
+            <div class="lt"></div>
+            <div class="lb"></div>
+            <div class="rt"></div>
+            <div class="rb"></div>
+            <div class="b">
+            </div>
+            <div class="m">
+            </div>
+        </div>
+        <div id="oneMinute" class="clockNumberFrame">
+            <div class="t">
+            </div>
+            <div class="lt"></div>
+            <div class="lb"></div>
+            <div class="rt"></div>
+            <div class="rb"></div>
+            <div class="b">
+            </div>
+            <div class="m">
+            </div>
+        </div>
+    </div>
+
+    <span id="hours" class="clockPart"></span>:
+    <span id="minutes" class="clockPart"></span>:
+    <span id="seconds" class="clockPart"></span>:
+    <span id="milliseconds" class="clockPart"></span>
+    <script src="scripts/clock.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="scripts/timers.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="scripts/colors.js" type="text/javascript" charset="utf-8" async defer></script>
+     <script src="scripts/evenodd.js" type="text/javascript" charset="utf-8" async defer></script>
+     <script src="scripts/numbers.js" type="text/javascript" charset="utf-8" async defer></script>
+      <script src="scripts/numControllers.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+
 </html>
