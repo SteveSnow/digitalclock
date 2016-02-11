@@ -1,0 +1,84 @@
+#clockBody {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    border: 1px black solid;
+}
+
+.clockNumberFrame {
+    height: 350px;
+    width: 100px;
+    margin:auto;
+}
+div h1{
+    text-align: center;
+    margin:auto;
+}
+.t {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+
+.b {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    bottom: 420;
+}
+
+.m {
+    height: 15%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    bottom: 625;
+}
+
+.lt {
+    height: 50%;
+    width: 25%;
+    position: relative;
+    bottom:30;
+    background-color: red;
+}
+
+.lb {
+    height: 50%;
+    width: 25%;
+    left: 0px;
+    bottom: 35px;
+    position: relative;
+    background-color: red;
+}
+
+.rt {
+    height: 50%;
+    width: 25%;
+    position: relative;
+    left: 75%;
+    bottom: 385;
+    background-color: red;
+}
+
+.rb {
+    height: 50%;
+    width: 25%;
+    position: relative;
+    left: 75%;
+    bottom: 385;
+    background-color: red;
+}
+
+.clockTop {
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
+
+.clockBottom {
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
