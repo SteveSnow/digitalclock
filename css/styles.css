@@ -2,19 +2,21 @@ body {
     display: flex;
 }
 
-#clockBody {
+#clockBody
+{
     display: flex;
     height: 400px;
     width: 50%;
     margin: auto;
     background-color: black;
-    padding: 50;
+    padding: 30;
 }
 
 .clockNumberFrame {
     height: 350px;
     width: 100px;
     margin: auto;
+    padding: 10
 }
 
 .divider h1 {

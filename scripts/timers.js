@@ -1,7 +1,4 @@
-//sets the time every second
-window.setInterval(function() {
-        setClock()
-    }, 1)
+
 window.setInterval(function() {
         updateDigitalClock()
     }, 100)

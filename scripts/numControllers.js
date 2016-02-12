@@ -72,7 +72,7 @@ function setOneHour(val) {
 
 function setTenMinute(val) {
     var part = 'tenMinute'
-   switch (val) {
+    switch (val) {
         case 0:
             create0(part)
             break;
@@ -108,7 +108,7 @@ function setTenMinute(val) {
 
 function setOneMinute(val) {
     var part = 'oneMinute'
-  switch (val) {
+    switch (val) {
         case 0:
             create0(part)
             break;
@@ -144,7 +144,7 @@ function setOneMinute(val) {
 
 function setTenSecond(val) {
     var part = 'tenSecond'
-   switch (val) {
+    switch (val) {
         case 0:
             create0(part)
             break;
@@ -180,7 +180,7 @@ function setTenSecond(val) {
 
 function setOneSecond(val) {
     var part = 'oneSecond'
-  switch (val) {
+    switch (val) {
         case 0:
             create0(part)
             break;

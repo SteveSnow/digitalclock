@@ -1,3 +1,4 @@
+
 function updateDigitalClock() {
     controlHours()
     controlMinutes()
@@ -39,7 +40,7 @@ function controlSeconds() {
     var now = getRightNow();
     var m = formatMinute(now.second);
     var mm = m % 10;
-    
+
     if (m < 10) {
         setTenSecond(0);
         setOneSecond(mm);
