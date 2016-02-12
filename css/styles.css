@@ -2,8 +2,7 @@ body {
     display: flex;
 }
 
-#clockBody
-{
+#clockBody {
     display: flex;
     height: 400px;
     width: 50%;
@@ -28,6 +27,7 @@ body {
     height: 10%;
     width: 100%;
     background-color: red;
+    border: 1 black solid;
 }
 
 .b {
@@ -36,14 +36,16 @@ body {
     background-color: red;
     position: relative;
     bottom: 420;
+    border: 1px black solid;
 }
 
 .m {
-    height: 15%;
+    height: 10%;
     width: 100%;
     background-color: red;
     position: relative;
     bottom: 625;
+    border: 1px black solid;
 }
 
 .lt {
@@ -52,6 +54,7 @@ body {
     position: relative;
     bottom: 30;
     background-color: red;
+    border: 1px black solid;
 }
 
 .lb {
@@ -61,6 +64,7 @@ body {
     bottom: 35px;
     position: relative;
     background-color: red;
+    border: 1px black solid;
 }
 
 .rt {
@@ -70,6 +74,7 @@ body {
     left: 75%;
     bottom: 385;
     background-color: red;
+    border: 1px black solid;
 }
 
 .rb {
@@ -79,4 +84,5 @@ body {
     left: 75%;
     bottom: 385;
     background-color: red;
+    border: 1px black solid;
 }
