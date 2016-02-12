@@ -7,10 +7,10 @@ var rightNow = {
 
 function setClock() {
     var now = getRightNow()
-    $('#hours').text(displayCheck(now.hour))
-    $('#minutes').text(displayCheck(now.minute))
-    $('#seconds').text(displayCheck(now.second))
-    $('#milliseconds').text(displayCheck(now.millisecond))
+    $('#hours').text(formatMinute(now.hour))
+    $('#minutes').text(formatMinute(now.minute))
+    $('#seconds').text(formatMinute(now.second))
+    $('#milliseconds').text(formatMinute(now.millisecond))
     checkEven(now.minute)
 }
 
@@ -23,7 +23,7 @@ function getRightNow() {
     return rightNow
 }
 
-function displayCheck(val) {
+function formatMinute(val) {
     if (val < 10) {
         return '0' + val;
     } else {
