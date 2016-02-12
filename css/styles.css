@@ -1,19 +1,27 @@
+body {
+    display: flex;
+}
+
 #clockBody {
     display: flex;
     height: 400px;
-    width: 100%;
-    border: 1px black solid;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    padding: 50;
 }
 
 .clockNumberFrame {
     height: 350px;
     width: 100px;
-    margin:auto;
+    margin: auto;
 }
-div h1{
-    text-align: center;
-    margin:auto;
+
+.divider h1 {
+    font-size: 150;
+    color: red;
 }
+
 .t {
     height: 10%;
     width: 100%;
@@ -40,7 +48,7 @@ div h1{
     height: 50%;
     width: 25%;
     position: relative;
-    bottom:30;
+    bottom: 30;
     background-color: red;
 }
 
@@ -69,16 +77,4 @@ div h1{
     left: 75%;
     bottom: 385;
     background-color: red;
-}
-
-.clockTop {
-    height: 50%;
-    width: 100%;
-    background-color: green;
-}
-
-.clockBottom {
-    height: 50%;
-    width: 100%;
-    background-color: green;
 }
